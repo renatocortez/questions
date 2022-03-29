@@ -1,6 +1,6 @@
 //using selectors inside the element
 
-    const questions = document.querySelector(".question");
+    const questions = document.querySelectorAll(".question");
 
     questions.forEach(function (question) {
         // console.log(question);
